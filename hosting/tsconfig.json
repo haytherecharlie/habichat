@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./",
+    "paths": {
+      "api/*": ["./src/api/*"],
+      "config/*": ["./src/config/*"],
+      "services/*": ["./src/services/*"],
+      "ui/*": ["./src/ui/*"]
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": ["src"]
+}
